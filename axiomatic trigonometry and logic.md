@@ -295,7 +295,41 @@ $\dfrac{2}{1+C(2^{-n})} \leq \dfrac{2}{2-2^{-n}}$.
 &&&
 
 &&&prf
+$F^2\left(\dfrac{x}{2}\right) = \dfrac{(S(\frac{x}{2}))^2}{(\frac{x}{2})^2} = \dfrac{4}{x^2} \cdot \dfrac{1-\cos x}{2} = \dfrac{4}{x^2} \cdot \dfrac{1-(C(x))^2}{1+C(x)} \cdot \dfrac{1}{2}\\=\dfrac{2}{1+C(x)} \cdot \left(\dfrac{S(x)}{x}\right)^2 = \dfrac{2}{1+C(x)} F(x)$
 
+であるから，$F^2(2^{-1}) = \dfrac{2}{1+C(1)}F^2(1) = 2 \leq \dfrac{2^{1+1}}{2^{1-1}+1}$ である．
+
+$F^2(2^{-k}) \leq \dfrac{2^{k+1}}{2^{k-1}+1}$ を仮定すると，
+
+$F^2(2^{-(k+1)})=\dfrac{2}{1+C(2^{-k})}F^2(2^{-k})\\\leq \dfrac{2}{2-2^{-k}} \cdot \dfrac{2^{k+1}}{2^{k-1}+1}\\\leq\dfrac{2^{k+2}}{2^k+1+(1-2^{-1}-2^{-k})}.$
+
+$k \geq 1$ のとき，分母のカッコ内は非負なので，仮定した不等式が任意の正整数 $k$ について成り立つ．これはいずれも 4 で上から抑えられるため，考えている数列は有界であり，上記定理より単調増加であるから，有界な単調数列の収束性により，極限値を持つ．
+&&&
+
+&&&prf
+上記定理の証明．
+
+上記補題と $F(x)$ が減少関数であることから，従う (同様の議論を補題 18 の証明で行った)．
+&&&
+
+以上より，この極限値をから $\pi$ を定義でき，通常の三角関数も定めることができます．
+
+&&&def
+$\pi = 2\displaystyle\lim_{x \to 0} F(x)$
+&&&
+
+&&&def
+$\sin x = S\left(\dfrac{2x}{\pi}\right),\ \cos x = C\left(\dfrac{2x}{\pi}\right)$
+&&&
+
+以下は簡単に示せます．
+
+&&&thm
+$\displaystyle\lim_{x \to 0} \dfrac{\sin x}{x} = 1$.
+&&&
+
+&&&prf
+$1 = \left(\dfrac{2}{\pi}\right)\cdot\left(\dfrac{\pi}{2}\right) = \dfrac{2}{\pi}\displaystyle\lim_{x \to 0} \dfrac{S(x)}{x} = \dfrac{2}{\pi} \displaystyle\lim_{x \to 0} \dfrac{S(\frac{2x}{\pi})}{\frac{2x}{\pi}}=\displaystyle\lim_{x \to 0} \dfrac{S(\frac{2x}{\pi})}{x} = \displaystyle\lim_{x \to 0} \dfrac{\sin x}{x}$.
 &&&
 
 ## 解析の基礎知識
