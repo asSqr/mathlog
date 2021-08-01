@@ -295,7 +295,9 @@ $\dfrac{2}{1+C(2^{-n})} \leq \dfrac{2}{2-2^{-n}}$.
 &&&
 
 &&&prf
-$F^2\left(\dfrac{x}{2}\right) = \dfrac{(S(\frac{x}{2}))^2}{(\frac{x}{2})^2} = \dfrac{4}{x^2} \cdot \dfrac{1-\cos x}{2} = \dfrac{4}{x^2} \cdot \dfrac{1-(C(x))^2}{1+C(x)} \cdot \dfrac{1}{2}\\=\dfrac{2}{1+C(x)} \cdot \left(\dfrac{S(x)}{x}\right)^2 = \dfrac{2}{1+C(x)} F(x)$
+補題 3 (a) と補題 12 (c) より，
+
+$F^2\left(\dfrac{x}{2}\right) = \dfrac{(S(\frac{x}{2}))^2}{(\frac{x}{2})^2} = \dfrac{4}{x^2} \cdot \dfrac{1-C(x)}{2} = \dfrac{4}{x^2} \cdot \dfrac{1-(C(x))^2}{1+C(x)} \cdot \dfrac{1}{2}\\=\dfrac{2}{1+C(x)} \cdot \left(\dfrac{S(x)}{x}\right)^2 = \dfrac{2}{1+C(x)} F(x)$
 
 であるから，$F^2(2^{-1}) = \dfrac{2}{1+C(1)}F^2(1) = 2 \leq \dfrac{2^{1+1}}{2^{1-1}+1}$ である．
 
