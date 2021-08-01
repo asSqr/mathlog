@@ -317,11 +317,11 @@ $k \geq 1$ のとき，分母のカッコ内は非負なので，仮定した不
 以上より，この極限値から $\pi$ を定義でき，通常の三角関数も定めることができます．
 
 &&&def
-$\pi = 2\displaystyle\lim_{x \to 0} F(x)$
+$\pi = 2\displaystyle\lim_{x \to 0} F(x)$.
 &&&
 
 &&&def
-$\sin x = S\left(\dfrac{2x}{\pi}\right),\ \cos x = C\left(\dfrac{2x}{\pi}\right)$
+$\sin x = S\left(\dfrac{2x}{\pi}\right),\ \cos x = C\left(\dfrac{2x}{\pi}\right)$.
 &&&
 
 以下は簡単に示せます．
