@@ -532,7 +532,7 @@ $\forall \varepsilon > 0.\ \exists \delta > 0.\ \forall x \in X.\ |x-a| < \delta
 &&&
 
 &&&thm 和・差・積・商の連続性
-ある実数上の区間 $X$ 上で定義される関数 $f, g: \mathbb{R} \supseteq X \rightarrow \mathbb{R}$ が $a \in X$ において連続であるとき，$f+g, f-g, fg, \dfrac{f}{g}$ も $a \in X$ において連続である．ただし，商については $g(a) \neq 0$ とする．
+ある実数上の区間 $X$ 上で定義される関数 $f, g: \mathbb{R} \supseteq X \rightarrow \mathbb{R}$ が $a \in X$ において連続であるとき，$f+g,\ f-g,\ fg,\ \dfrac{f}{g}$ も $a \in X$ において連続である．ただし，商については $g(a) \neq 0$ とする．
 &&&
 
 &&&prf
@@ -556,6 +556,8 @@ $\forall \varepsilon > 0.\ \exists \delta > 0.\ \forall x \in X.\ |x-a| < \delta
 
 $x \mapsto \sqrt{x}$ に関しては，$\sqrt{x}-\sqrt{a} = \dfrac{x-a}{\sqrt{x}+\sqrt{a}}$ より，示される．
 &&&
+
+連続関数同士の合成関数もやはり連続であることを示します．
 
 &&&thm 合成関数の連続性
 ある実数上の区間 $X$ 上で定義される関数 $f, g: \mathbb{R} \supseteq X \rightarrow \mathbb{R}$ が $a \in X$ において連続であるとき，$g \circ f: x \mapsto g(f(x))$ も $a \in X$ において連続である．
