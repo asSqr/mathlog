@@ -281,7 +281,7 @@ $\displaystyle\lim_{x \to 0} F(x)$ は存在する．
 これを示すための補題をさらに用意します．
 
 &&&lem
-$n$ が非負整数として，
+$n$ を非負整数として，
 
 $\dfrac{2}{1+C(2^{-n})} \leq \dfrac{2}{2-2^{-n}}$.
 &&&
@@ -479,7 +479,7 @@ $a_1 = a, b_1 = \frac{a+b}{2}$
 $s \in B$ の場合も同様だから，i が示される．
 &&&
 
-ここから，以下のアリキメデス性が成り立ちます．
+ここから，以下のアルキメデス性が成り立ちます．
 
 &&&thm アルキメデス性
 $\forall \varepsilon > 0.\ \forall a > 0.\ \exists n \in \mathbb{N}.\ n\varepsilon > a$.
